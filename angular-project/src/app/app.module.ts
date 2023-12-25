@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModulesModule } from './shared/shared-modules.module';
 import { PagesModule } from './pages/pages.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -16,7 +17,8 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     AppRoutingModule,
     SharedModulesModule,
-    PagesModule
+    PagesModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
